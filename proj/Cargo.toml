@@ -1,6 +1,10 @@
 [package]
-name = "rust-demo"
+name = "mylib"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+
+[lib]
+name = "mylib"
+crate-type = ["staticlib"]

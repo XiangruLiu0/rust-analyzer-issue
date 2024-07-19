@@ -1,9 +1,9 @@
 {
     "rust-analyzer.cargo.extraEnv": {
-        "BINDING_PATH": "${workspaceFolder}/build/bindings.rs"
+        "BINDINGS": "${workspaceFolder}/build/bindings.rs"
     },
     "rust-analyzer.check.extraEnv": {
-        "BINDING_PATH": "${workspaceFolder}/build/bindings.rs"
+        "BINDINGS": "${workspaceFolder}/build/bindings.rs"
     },
     "rust-analyzer.restartServerOnConfigChange": true,
 }
